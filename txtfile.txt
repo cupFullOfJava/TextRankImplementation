@@ -1,0 +1,26 @@
+Sentence number number one is this.
+Sentence number two is this.
+Sentence number three is this.
+Sentence number four is this.
+
+
+
+
+Sentence number five is this. This is how it's done.
+
+This is what TextRank is.
+TextRank is a graph based ranking algorithm, which decides on the importance of a vertex within a graph. It
+uses global information recursively computed from the entire graph, rather than relying only on local
+vertex-specific information. When one vertex links to another in the graph it is basically casting a vote for
+that other vertex. The higher the number of votes, the higher the importance. The vertex that casts the
+vote is also taken into consideration. The score associated with a vertex is determined based on the votes
+that are cast for it, and the score of the vertices casting these votes.
+This concept can be applied to automatic summarization first by constructing a weighted graph that
+represents the text. A vertex is added to the graph for each sentence. Co-occurrence is not important here
+because it is highly unlikely that a sentence will be repeated more than once. The relationship that is
+considered for sentence extraction is the similarity between two sentences. Similarity can be determined by
+using a number of open class words as common tokens. The length of the sentences is also taken into
+consideration by using a normalization factor. To normalize, the content overlap of two sentences can be
+divided by the length of each sentence.
+After the ranking algorithm is run on the graph, sentences are sorted in reversed order of their score, and
+the top ranked sentences are selected for inclusion in the summary.

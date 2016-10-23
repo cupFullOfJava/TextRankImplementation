@@ -1,0 +1,10 @@
+Sentence number number one is this. 
+Sentence number two is this. 
+Sentence number three is this. 
+Sentence number four is this.     
+The vertex that casts the vote is also taken into consideration. 
+Co-occurrence is not important here because it is highly unlikely that a sentence will be repeated more than once. 
+Similarity can be determined by using a number of open class words as common tokens. 
+The length of the sentences is also taken into consideration by using a normalization factor. 
+To normalize, the content overlap of two sentences can be divided by the length of each sentence. 
+After the ranking algorithm is run on the graph, sentences are sorted in reversed order of their score, and the top ranked sentences are selected for inclusion in the summary. 
