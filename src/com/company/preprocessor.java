@@ -14,7 +14,6 @@ import java.util.Locale;
  */
 public class preprocessor {
 
-
     /**
      * Every instance in american english that might cause a sentence to break in the wrong spot.
      * Is this every instance?  Maybe...but it is close imo.  SOOOOOO yeah.  Deal with it. ;)
@@ -40,8 +39,8 @@ public class preprocessor {
             };
 
     /**
-     *
-     * @param fname the name of the file to be proccessed
+     * This function takes file, processes it into an array list, and returns that list.
+     * @param fname the name of the file to be processed.
      * @return arrList the text file broken up into an array of strings
      * @throws IOException deals with any I/O exceptions.  such as the file not existing.  user input error lolz.
      */

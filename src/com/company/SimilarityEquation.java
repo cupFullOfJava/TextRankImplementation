@@ -1,6 +1,5 @@
 package com.company;
 
-
 /**
  * Created by Jeremy Timothy Brown on 10/22/2016.
  * This class applies the similarity equation to a given two sentences
@@ -65,7 +64,4 @@ public class SimilarityEquation {
     private static double normalize(double s1L, double s2L){
         return Math.log(Math.abs(s1L)) + Math.log(Math.abs(s2L));
     }
-
-
-
 }

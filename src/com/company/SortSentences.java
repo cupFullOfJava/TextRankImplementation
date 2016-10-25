@@ -1,11 +1,10 @@
 package com.company;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
  * Created by Jeremy Timothy Brown on 10/22/2016.
- * This class sorts a sentence list given a list of similarity scores that directly correlates with the first list
+ * This class sorts a sentence list given a list of similarity scores that directly correlates with the first list.
  */
 public class SortSentences {
 

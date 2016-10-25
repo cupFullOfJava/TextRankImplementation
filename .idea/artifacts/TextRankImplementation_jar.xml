@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TextRankImplementation:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TextRankImplementation_jar</output-path>
+    <root id="archive" name="TextRankImplementation.jar">
+      <element id="module-output" name="TextRankImplementation" />
+    </root>
+  </artifact>
+</component>

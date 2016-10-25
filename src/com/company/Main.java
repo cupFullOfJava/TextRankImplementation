@@ -29,7 +29,6 @@ public class Main {
         arrList = p.preprocessFile(fname);              //Sends the file to be processed
         origList = p.preprocessFile(fname);             //since arrList is to be modified later, another list must be created to hold the original processed list
 
-
         /**
          * for loop to run through the sentences, select two, and then send off to the similarity equation function
          * once a double is returned, it is added to the simNums list
@@ -85,7 +84,7 @@ public class Main {
     /**
      * This function asks the user to enter a length that they want the summary to be.
      * If the number they enter is greater then or equal to the size of the original body of text, it will not accept the answer.
-     * The user rMUST enter a number smaller.
+     * The user MUST enter a number smaller.
      * @param orSize size of the original list
      * @return the desired length of the summary provided by the user
      */
